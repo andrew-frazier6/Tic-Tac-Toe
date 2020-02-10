@@ -24,11 +24,134 @@ function changeColor(e) {
     color = "red";
     e.target.removeEventListener("click", changeColor);
   }
+  redWinner();
+  blueWinner();
 }
 
 function reset() {
   if (totalClicks === 9) {
     for (let i = 0; i < box.length; i++) box[i].style.backgroundColor = "white";
     resetGame();
+  }
+}
+
+// for (let i = 0; i < winningCombos.length; i++)
+//     for( let j=0; j < winningCombos.lngth; j++)
+
+function redWinner() {
+  if (
+    box[0].style.backgroundColor == "red" &&
+    box[1].style.backgroundColor == "red" &&
+    box[2].style.backgroundColor == "red"
+  ) {
+    alert("Red Wins!");
+  }
+  if (
+    box[3].style.backgroundColor == "red" &&
+    box[4].style.backgroundColor == "red" &&
+    box[5].style.backgroundColor == "red"
+  ) {
+    alert("Red Wins!");
+  }
+  if (
+    box[6].style.backgroundColor == "red" &&
+    box[7].style.backgroundColor == "red" &&
+    box[8].style.backgroundColor == "red"
+  ) {
+    alert("Red Wins!");
+  }
+  if (
+    box[0].style.backgroundColor == "red" &&
+    box[4].style.backgroundColor == "red" &&
+    box[8].style.backgroundColor == "red"
+  ) {
+    alert("Red Wins!");
+  }
+  if (
+    box[2].style.backgroundColor == "red" &&
+    box[4].style.backgroundColor == "red" &&
+    box[6].style.backgroundColor == "red"
+  ) {
+    alert("Red Wins!");
+  }
+  if (
+    box[0].style.backgroundColor == "red" &&
+    box[3].style.backgroundColor == "red" &&
+    box[6].style.backgroundColor == "red"
+  ) {
+    alert("Red Wins!");
+  }
+  if (
+    box[1].style.backgroundColor == "red" &&
+    box[4].style.backgroundColor == "red" &&
+    box[7].style.backgroundColor == "red"
+  ) {
+    alert("Red Wins!");
+  }
+  if (
+    box[2].style.backgroundColor == "red" &&
+    box[5].style.backgroundColor == "red" &&
+    box[8].style.backgroundColor == "red"
+  ) {
+    alert("Red wins!");
+  }
+}
+
+function blueWinner() {
+  if (
+    box[0].style.backgroundColor == "blue" &&
+    box[1].style.backgroundColor == "blue" &&
+    box[2].style.backgroundColor == "blue"
+  ) {
+    alert("Blue Wins!");
+  }
+  if (
+    box[3].style.backgroundColor == "blue" &&
+    box[4].style.backgroundColor == "blue" &&
+    box[5].style.backgroundColor == "blue"
+  ) {
+    alert("Blue Wins!");
+  }
+  if (
+    box[6].style.backgroundColor == "blue" &&
+    box[7].style.backgroundColor == "blue" &&
+    box[8].style.backgroundColor == "blue"
+  ) {
+    alert("Blue Wins!");
+  }
+  if (
+    box[0].style.backgroundColor == "blue" &&
+    box[4].style.backgroundColor == "blue" &&
+    box[8].style.backgroundColor == "blue"
+  ) {
+    alert("Blue Wins!");
+  }
+  if (
+    box[2].style.backgroundColor == "blue" &&
+    box[4].style.backgroundColor == "blue" &&
+    box[6].style.backgroundColor == "blue"
+  ) {
+    alert("Blue Wins!");
+  }
+  if (
+    box[0].style.backgroundColor == "blue" &&
+    box[3].style.backgroundColor == "blue" &&
+    box[6].style.backgroundColor == "blue"
+  ) {
+    alert("Blue Wins!");
+  }
+  if (
+    box[1].style.backgroundColor == "blue" &&
+    box[4].style.backgroundColor == "blue" &&
+    box[7].style.backgroundColor == "blue"
+  ) {
+    alert("Blue Wins!");
+  }
+  if (
+    box[2].style.backgroundColor == "blue" &&
+    box[5].style.backgroundColor == "blue" &&
+    box[8].style.backgroundColor == "blue"
+  ) {
+    alert("Blue wins!");
   }
 }
