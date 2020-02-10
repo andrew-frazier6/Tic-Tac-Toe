@@ -1,0 +1,24 @@
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px;
+  grid-gap: 5px;
+}
+
+.box {
+  border: black 2px solid;
+}
+
+.test-boxes {
+  border: black 2px solid;
+  background-color: grey;
+}
+
+/* div:focus {
+  background-color: red;
+} */
