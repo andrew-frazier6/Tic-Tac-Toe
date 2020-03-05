@@ -11,7 +11,6 @@ function resetGame() {
   totalClicks = 0;
 }
 resetGame();
-// after 9 something would happen
 
 function changeColor(e) {
   console.dir(e);
@@ -34,9 +33,6 @@ function reset() {
     resetGame();
   }
 }
-
-// for (let i = 0; i < winningCombos.length; i++)
-//     for( let j=0; j < winningCombos.lngth; j++)
 
 function redWinner() {
   if (
