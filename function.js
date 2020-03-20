@@ -25,10 +25,11 @@ function changeColor(e) {
   }
   redWinner();
   blueWinner();
+  tie();
 }
 
 function reset() {
-  if (totalClicks === 9) {
+  if (totalClicks > 0) {
     for (let i = 0; i < box.length; i++) box[i].style.backgroundColor = "white";
     resetGame();
   }
@@ -149,5 +150,11 @@ function blueWinner() {
     box[8].style.backgroundColor == "blue"
   ) {
     alert("Blue wins!");
+  }
+}
+
+function tie() {
+  if (totalClicks == 9) {
+    alert("Its a Tie!");
   }
 }
