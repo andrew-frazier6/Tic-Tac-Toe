@@ -9,8 +9,8 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Tic-Tac-Toe</h1>
-        <section>
+        <div class="main-container">
+            <h1>Tic-Tac-Toe</h1>
             <div class="grid-container">
                 <div tabindex="1" class="box"></div>
                 <div tabindex="2" class="box"></div>
@@ -22,14 +22,12 @@
                 <div tabindex="8" class="box"></div>
                 <div tabindex="9" class="box"></div>
             </div>
-            
-        </section>
-        <div class="outer-div">
-            <div class="buton-div">
-            <button onclick="reset()">Reset</button>
+            <div class="button-div">
+                <button class="button" onclick="reset()">Reset</button>
             </div>
             
         </div>
+    </div>
         <script src="function.js" async defer></script>
     </body>
 </>
