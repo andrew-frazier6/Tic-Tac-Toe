@@ -10,6 +10,10 @@ body {
   width: 100vw;
 }
 
+*:focus {
+  outline: none;
+}
+
 .page-container {
   height: 100%;
   width: 100%;
