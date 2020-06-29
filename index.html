@@ -9,23 +9,26 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="main-container">
-            <h1>Tic-Tac-Toe</h1>
-            <div class="grid-container">
-                <div tabindex="1" class="box"></div>
-                <div tabindex="2" class="box"></div>
-                <div tabindex="3" class="box"></div>
-                <div tabindex="4" class="box"></div>
-                <div tabindex="5" class="box"></div>
-                <div tabindex="6" class="box"></div>
-                <div tabindex="7" class="box"></div>
-                <div tabindex="8" class="box"></div>
-                <div tabindex="9" class="box"></div>
+        <div class="page-container">
+            <div class="main-container">
+                <div class="primary-header-div">
+                    <h1 class="primary-header">Tic-Tac-Toe</h1>
+                </div>
+                <div class="grid-container">
+                    <div tabindex="1" class="box"></div>
+                    <div tabindex="2" class="box"></div>
+                    <div tabindex="3" class="box"></div>
+                    <div tabindex="4" class="box"></div>
+                    <div tabindex="5" class="box"></div>
+                    <div tabindex="6" class="box"></div>
+                    <div tabindex="7" class="box"></div>
+                    <div tabindex="8" class="box"></div>
+                    <div tabindex="9" class="box"></div>
+                </div>
+                <div class="button-div">
+                    <button class="button" onclick="reset()">Reset</button>
+                </div>
             </div>
-            <div class="button-div">
-                <button class="button" onclick="reset()">Reset</button>
-            </div>
-            
         </div>
     </div>
         <script src="function.js" async defer></script>
