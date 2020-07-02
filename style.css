@@ -97,6 +97,7 @@ button:hover {
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: #bd9964;
+  color: #0b3481;
   padding-top: 50px;
 }
 

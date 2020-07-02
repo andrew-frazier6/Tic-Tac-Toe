@@ -45,7 +45,7 @@ function redWinner() {
     box[2].style.backgroundColor == "red"
   ) {
     modalRedWinner.style.display = "block";
-    modalRedWinner.style.backgroundColor = "#474e5d";
+    modalRedWinner.style.backgroundColor = "#810b0b";
   }
   if (
     box[3].style.backgroundColor == "red" &&
@@ -53,7 +53,7 @@ function redWinner() {
     box[5].style.backgroundColor == "red"
   ) {
     modalRedWinner.style.display = "block";
-    modalRedWinner.style.backgroundColor = "#474e5d";
+    modalRedWinner.style.backgroundColor = "#810b0b";
   }
   if (
     box[6].style.backgroundColor == "red" &&
@@ -61,7 +61,7 @@ function redWinner() {
     box[8].style.backgroundColor == "red"
   ) {
     modalRedWinner.style.display = "block";
-    modalRedWinner.style.backgroundColor = "#474e5d";
+    modalRedWinner.style.backgroundColor = "#810b0b";
   }
   if (
     box[0].style.backgroundColor == "red" &&
@@ -69,7 +69,7 @@ function redWinner() {
     box[8].style.backgroundColor == "red"
   ) {
     modalRedWinner.style.display = "block";
-    modalRedWinner.style.backgroundColor = "#474e5d";
+    modalRedWinner.style.backgroundColor = "#810b0b";
   }
   if (
     box[2].style.backgroundColor == "red" &&
@@ -77,7 +77,7 @@ function redWinner() {
     box[6].style.backgroundColor == "red"
   ) {
     modalRedWinner.style.display = "block";
-    modalRedWinner.style.backgroundColor = "#474e5d";
+    modalRedWinner.style.backgroundColor = "#810b0b";
   }
   if (
     box[0].style.backgroundColor == "red" &&
@@ -85,7 +85,7 @@ function redWinner() {
     box[6].style.backgroundColor == "red"
   ) {
     modalRedWinner.style.display = "block";
-    modalRedWinner.style.backgroundColor = "#474e5d";
+    modalRedWinner.style.backgroundColor = "#810b0b";
   }
   if (
     box[1].style.backgroundColor == "red" &&
@@ -93,7 +93,7 @@ function redWinner() {
     box[7].style.backgroundColor == "red"
   ) {
     modalRedWinner.style.display = "block";
-    modalRedWinner.style.backgroundColor = "#474e5d";
+    modalRedWinner.style.backgroundColor = "#810b0b";
   }
   if (
     box[2].style.backgroundColor == "red" &&
@@ -101,7 +101,7 @@ function redWinner() {
     box[8].style.backgroundColor == "red"
   ) {
     modalRedWinner.style.display = "block";
-    modalRedWinner.style.backgroundColor = "#474e5d";
+    modalRedWinner.style.backgroundColor = "#810b0b";
   }
 }
 
@@ -175,6 +175,6 @@ function blueWinner() {
 function tie() {
   if (totalClicks == 9) {
     modalTie.style.display = "block";
-    modalTie.style.backgroundColor = "#474e5d";
+    modalTie.style.backgroundColor = "#bd9964";
   }
 }
