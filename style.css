@@ -81,6 +81,47 @@ button:hover {
   cursor: pointer;
 }
 
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #000000;
+  margin: 0.5% auto 1% auto; /* 5% from the top, 15% from the bottom and centered */
+  color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(15, 15, 15);
+  width: 50%;
+  height: auto;
+  max-height: 300px;
+  font-size: 1.2rem;
+  /* font-style: "Lato"; */
+  font-weight: 200;
+  overflow: hidden;
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
 @media only screen and (max-width: 500px) {
   .grid-container {
     grid-template-columns: 100px 100px 100px;

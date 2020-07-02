@@ -34,6 +34,7 @@ function reset() {
     resetGame();
   }
 }
+modal2 = document.getElementById("id01");
 
 function redWinner() {
   if (
@@ -42,6 +43,8 @@ function redWinner() {
     box[2].style.backgroundColor == "red"
   ) {
     alert("Red Wins!");
+    modal2.style.display = "block";
+    modal2.style.backgroundColor = "#474e5d";
   }
   if (
     box[3].style.backgroundColor == "red" &&
@@ -49,6 +52,8 @@ function redWinner() {
     box[5].style.backgroundColor == "red"
   ) {
     alert("Red Wins!");
+    modal2.style.display = "block";
+    modal2.style.backgroundColor = "#474e5d";
   }
   if (
     box[6].style.backgroundColor == "red" &&
@@ -56,6 +61,8 @@ function redWinner() {
     box[8].style.backgroundColor == "red"
   ) {
     alert("Red Wins!");
+    modal2.style.display = "block";
+    modal2.style.backgroundColor = "#474e5d";
   }
   if (
     box[0].style.backgroundColor == "red" &&
@@ -63,6 +70,8 @@ function redWinner() {
     box[8].style.backgroundColor == "red"
   ) {
     alert("Red Wins!");
+    modal2.style.display = "block";
+    modal2.style.backgroundColor = "#474e5d";
   }
   if (
     box[2].style.backgroundColor == "red" &&
@@ -70,6 +79,8 @@ function redWinner() {
     box[6].style.backgroundColor == "red"
   ) {
     alert("Red Wins!");
+    modal2.style.display = "block";
+    modal2.style.backgroundColor = "#474e5d";
   }
   if (
     box[0].style.backgroundColor == "red" &&
@@ -77,6 +88,8 @@ function redWinner() {
     box[6].style.backgroundColor == "red"
   ) {
     alert("Red Wins!");
+    modal2.style.display = "block";
+    modal2.style.backgroundColor = "#474e5d";
   }
   if (
     box[1].style.backgroundColor == "red" &&
@@ -84,6 +97,8 @@ function redWinner() {
     box[7].style.backgroundColor == "red"
   ) {
     alert("Red Wins!");
+    modal2.style.display = "block";
+    modal2.style.backgroundColor = "#474e5d";
   }
   if (
     box[2].style.backgroundColor == "red" &&
@@ -91,6 +106,8 @@ function redWinner() {
     box[8].style.backgroundColor == "red"
   ) {
     alert("Red wins!");
+    modal2.style.display = "block";
+    modal2.style.backgroundColor = "#474e5d";
   }
 }
 
@@ -101,6 +118,8 @@ function blueWinner() {
     box[2].style.backgroundColor == "blue"
   ) {
     alert("Blue Wins!");
+    modal2.style.display = "block";
+    modal2.style.backgroundColor = "#474e5d";
   }
   if (
     box[3].style.backgroundColor == "blue" &&
@@ -108,6 +127,8 @@ function blueWinner() {
     box[5].style.backgroundColor == "blue"
   ) {
     alert("Blue Wins!");
+    modal2.style.display = "block";
+    modal2.style.backgroundColor = "#474e5d";
   }
   if (
     box[6].style.backgroundColor == "blue" &&
@@ -115,6 +136,8 @@ function blueWinner() {
     box[8].style.backgroundColor == "blue"
   ) {
     alert("Blue Wins!");
+    modal2.style.display = "block";
+    modal2.style.backgroundColor = "#474e5d";
   }
   if (
     box[0].style.backgroundColor == "blue" &&
@@ -122,6 +145,8 @@ function blueWinner() {
     box[8].style.backgroundColor == "blue"
   ) {
     alert("Blue Wins!");
+    modal2.style.display = "block";
+    modal2.style.backgroundColor = "#474e5d";
   }
   if (
     box[2].style.backgroundColor == "blue" &&
@@ -129,6 +154,8 @@ function blueWinner() {
     box[6].style.backgroundColor == "blue"
   ) {
     alert("Blue Wins!");
+    modal2.style.display = "block";
+    modal2.style.backgroundColor = "#474e5d";
   }
   if (
     box[0].style.backgroundColor == "blue" &&
@@ -136,6 +163,8 @@ function blueWinner() {
     box[6].style.backgroundColor == "blue"
   ) {
     alert("Blue Wins!");
+    modal2.style.display = "block";
+    modal2.style.backgroundColor = "#474e5d";
   }
   if (
     box[1].style.backgroundColor == "blue" &&
@@ -143,6 +172,8 @@ function blueWinner() {
     box[7].style.backgroundColor == "blue"
   ) {
     alert("Blue Wins!");
+    modal2.style.display = "block";
+    modal2.style.backgroundColor = "#474e5d";
   }
   if (
     box[2].style.backgroundColor == "blue" &&
@@ -150,11 +181,15 @@ function blueWinner() {
     box[8].style.backgroundColor == "blue"
   ) {
     alert("Blue wins!");
+    modal2.style.display = "block";
+    modal2.style.backgroundColor = "#474e5d";
   }
 }
 
 function tie() {
   if (totalClicks == 9) {
     alert("Its a Tie!");
+    modal2.style.display = "block";
+    modal2.style.backgroundColor = "#474e5d";
   }
 }
